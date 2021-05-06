@@ -1,0 +1,73 @@
+body {
+  font-family: Yantramanav;
+}
+a {
+  color: #008793;
+}
+h1 {
+  font-family: Yantramanav;
+}
+h3 {
+  font-style: italic;
+  padding: 10px 10px 20px 10px;
+}
+.navbar {
+  font-family: Yantramanav;
+}
+.card {
+  border-color: black;
+  background-image: linear-gradient(
+    to right bottom,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72
+  );
+  box-shadow: 0 4px 8px 0;
+}
+.child-container {
+  padding: 10px;
+}
+.btn-outline-success {
+  color: #008793;
+  border-color: #004d7a;
+}
+.btn-outline-success:hover {
+  color: #fff;
+  background-color: #008793;
+  border-color: #004d7a;
+}
+.card-deck {
+  display: flex;
+  flex-flow: row wrap;
+}
+.card-body {
+  color: aliceblue;
+}
+.btn-group {
+  float: right;
+}
+.btn-outline-primary {
+  color: #004d7a;
+  border-color: #008793;
+}
+.btn-outline-primary:hover {
+  background: #008793;
+}
+.btn-check:active + .btn-outline-primary,
+.btn-check:checked + .btn-outline-primary,
+.btn-outline-primary.active,
+.btn-outline-primary.dropdown-toggle.show,
+.btn-outline-primary:active {
+  color: #fff;
+  background-color: #004d7a;
+  border-color: #008793;
+}
+#currentWeather {
+  font-family: Yantramanav;
+  font-size: 18px;
+  padding-left: 20px;
+}
+#forecastEmoji {
+  font-size: xx-large;
+}
